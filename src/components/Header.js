@@ -69,7 +69,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            連絡先
+            Contact
           </button>
         </li>
       </ul>

@@ -188,7 +188,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">連絡先</h2>
+          <h2 className="major">Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
