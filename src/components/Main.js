@@ -135,21 +135,25 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <ol>
+          <li><p><a href="https://camecon.me/" target="_blank">「Camecon」</a>誰でも参加できるフォトコンテストアプリ</p></li>
+          <p>主にフロントエンドを担当。Nuxt.js, Firestorem, Scss, BEM等を採用。あえてCSSフレームワークを導入せず、デザインは全てCSSを自作しています。</p>
+
+          <li><p><a href="https://newt0.netlify.app/" target="_blank">「ポートフォリオサイト]
+          </a></p></li>
+          <p>Gastby.js×Contentfulで制作。コンテンツ部分は全てContentfulで管理しています。</p>
+
+          <li><p><a href="https://irongate.netlify.app/" target="_blank">「医師向けAIプログラミングメディア」</a></p></li>
+          <p>Nuxt.js×Contentful(今後Vuetify導入して全面的に作り直し)。<p><a href="https://vuetifyblog-test.netlify.app/" target="_blank">リニューアルイメージ</a></p>
+            東大医学部生へのヒアリングから「医師×AIプログラミング教育サービス」の着想を得て、Aidemy時代に手応え（従来のペルソナ外からの月300万円の売り上げ）を実感しました。
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <li><p><a href="https://stayhomes.netlify.app/" target="_blank">「お家に在宅」
+          </a></p></li>
+          <p>Hugo×Forestry(Hugo専用のHeadless CMS)で制作（記事をまだ書いていません）。在宅勤務者がPCから見ることを想定したレイアウトです。</p>
+          <li><p><a href="https://vuenuxt-tutorial.netlify.app/" target="_blank">「VueとNuxtをはじめから」</a>Vue.js/Nuxt.js初心者向けブログ</p></li>
+          <p>Vuepressで構築(Vue/Nuxtについて扱うブログのため、あえてVuepress使ってます)。Qiita記事が予期せずNuxt.jsでSEO一位になり、この分野ならプログラミングスクールアフィで上位を狙えると感じました。
           </p>
+          </ol>
           {close}
         </article>
 
