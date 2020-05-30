@@ -66,26 +66,20 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#works">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <ol>
+          <li>JAMStackなメディア構築</li>
+          <p>Nuxt.js×Contentfulが最も得意ですが、Gastby.jsやHugo、Vuepress等その他のフレームワークも一通り扱えます。</p>
+          <li>Nuxt.js×FirestoreでSPA開発</li>
+          <p>Nuxt.jsでSPA開発ができます。ただし、メインはフロントなので、高度なデーターフローの設計(TypescriptによるInterface設計等）は難しいです。</p>
+
+          <li>Web制作・LP制作</li>
+          <p>下記のように使い分けています。<ul><li>「数時間で一定クオリティ」<br></br>→HugoのThemeやGastby Staterを利用する</li><li>「1日~数日で効率よく任意のレイアウト」<br></br>→Vuetifyを使ってCSS極力書かない</li><li>「細部までデザインに拘る」<br></br>→Nuxt.jsでCSSガリガリ書く</li></ul></p>
+
+          <li>インサイドセールス体制構築・最適化</li>
+          <p>上流から下流まで一気通貫したインサイドセールス体制の構築・運用の最適化ができます。</p>
+          <li>コンテンツマーケティング</li>
+          <p>Tech系のリサーチレポートや、プログラミング解説記事を作成してきました。</p>
+          </ol>
           {close}
         </article>
 
