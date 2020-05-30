@@ -168,21 +168,16 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <ol>
+          <li>早稲田大学社会科学部</li>
+          <p>休学と留年繰り返して7年生です</p>
+          <li>Kernel Hongo</li>
+          <p>東大松尾研やSoftbank, Deep Core(VC)等によるAIインキュベーター施設。審査に合格してメンバーになりました</p>
+          <li>MDN web doc翻訳チーム</li>
+          <p>有志による翻訳活動。</p>
+          <li>Gastby.jsドキュメント日本語化プロジェクト</li>
+          <p>有志による翻訳活動。</p>
+          </ol>
           {close}
         </article>
 
