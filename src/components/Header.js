@@ -8,13 +8,11 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Kyohei's Resume Site</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+        「見やすく、更新できる」Kyoheiの履歴書です。{' '}
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          興味のある項目をNavメニューから開いてください。
         </p>
       </div>
     </div>
