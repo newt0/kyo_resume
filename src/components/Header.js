@@ -24,25 +24,43 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            自己紹介
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('skill')
             }}
           >
-            Work
+            スキル
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('experience')
             }}
           >
-            About
+            経歴
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('portfolio')
+            }}
+          >
+            ポートフォリオ
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('others')
+            }}
+          >
+            その他所属
           </button>
         </li>
         <li>
@@ -51,7 +69,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            連絡先
           </button>
         </li>
       </ul>
