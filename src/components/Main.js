@@ -94,15 +94,33 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <ul>
+            <li>
+              <h3>ラグナロク株式会社<small>(2019年10月〜2020年7月)</small></h3>
+              <h4>会社について</h4>
+              <p>nanapiやコインチェック等出身のエンジニア・デザイナーで構成されており、極少人数での高速開発・リリースに強みを持っています。<br></br>B2B事業「MVP Now(最短2週間でのMVP納品)」や、自社サービスの開発(主にB2CのSNS)を行なっています。
+              </p>
+              <h5>業務内容</h5>
+              <p>フォトコンテストアプリ<a href="https://camecon.me/" target="_blank">「Camecon」</a>のフロントエンドを担当しました。<br></br>Nuxt.js, Firebase, Scss, BEM等を採用。</p>
+            </li>
+            <li>
+              <h3>Aidemy Inc<small>(2019年4月〜10月)</small></h3>
+              <h4>会社について</h4>
+              <p>東大発AIスタートアップです。ProgateのAI特化版のような学習プラットフォーム「Aidemy」を運営しており、そこで集めたユーザー数を参入障壁として
+                <br></br>B2C事業「Aidemy Premium Plan(高単価プログラミングスクール）」
+                <br></br>B2B事業「Aidemy Business(AI導入・内製化のコンサルティング)」
+                <br></br>で収益化しています。
+              </p>
+              <h5>業務内容</h5>
+              <p>B2C事業の事業開発を担当しました。
+                <br></br>主にセールスですが、マーケティングやCS等全領域を担っていました。
+                <br></br>
+                <br></br>事業部が目標額を大幅にショート、さらに他の先輩社員が全員辞めてしまい営業が一人になった状況から、翌月に1800万と前月比約2倍と最高売上を達成し、さらに1Q(3ヶ月)の目標もクリアしました。
+                <br></br>
+                <br></br>またプレイヤーとして成果を出した後は組織としての再現性・持続性を得るために、セールスチーム立ち上げも採用から行いました。
+              </p>
+            </li>
+          </ul>
           {close}
         </article>
 
