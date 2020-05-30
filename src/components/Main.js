@@ -21,7 +21,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-        <article
+        {/* <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -53,7 +53,7 @@ class Main extends React.Component {
             vehicula.
           </p>
           {close}
-        </article>
+        </article> */}
 
         <article
           id="skill"
